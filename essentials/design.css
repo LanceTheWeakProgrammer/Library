@@ -1,0 +1,82 @@
+:root {
+    --blue: #0046c8;
+    --blue_hover: #0039a3;
+  }
+  
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .h-font {
+    font-family: 'Merienda', cursive;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    appearance: textfield;
+  }
+  
+  .custom-bg {
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .custom-bg2 {
+      background-color: #333; 
+      color: #fff; 
+  }
+  
+  .custom-bg:hover {
+    background-color: var(--blue_hover);
+    border-color: var(--blue_hover);
+  }
+  
+  .h-line {
+    width: 150px;
+    margin: auto;
+    height: 1.7px;
+  }
+  
+  #dashboard-menu {
+    position: fixed;
+    height: 100%; 
+    color: #fff;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #e8eff7; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #5A5A5A; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6C757D; 
+  }
+  
+  @media screen and (max-width: 992px) {
+    #dashboard-menu {
+      height: auto;
+      width: 100%; 
+    }
+  }
+  
+  #main-content {
+    margin-top: 60px;
+  }
+  
+  .larger-dropdown {
+    min-width: 230px;
+  }
+  
